@@ -56,4 +56,4 @@ if uploaded_file is not None:
     pred = model.predict(img_array)
     predicted_digit = np.argmax(pred)
     
-    st.write(f"### Predicted Digit: {predicted_digit}")
+    st.write(f"### Predicted Digit: {predicted_digit}") 
